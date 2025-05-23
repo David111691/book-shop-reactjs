@@ -1,0 +1,23 @@
+.catalog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalog__button {
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 500;
+
+  background-color: #00499c;
+  border-style: none;
+
+  padding: 1.2rem;
+}
+
+.catalog__search-input {
+}
+
+.catalog__search-button {
+}

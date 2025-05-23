@@ -1,0 +1,7 @@
+.container {
+  max-width: 140rem;
+  height: 80rem;
+  background-color: yellow;
+
+  margin: 0 auto;
+}
