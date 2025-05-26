@@ -1,7 +1,14 @@
 .header__menu-container {
+  border-top: 1px solid #3392ff;
+
+  padding: 1.2rem 0;
+}
+
+.header__menu-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 140rem;
 
-  background-color: #2c7edc;
+  margin: 0 auto;
 }

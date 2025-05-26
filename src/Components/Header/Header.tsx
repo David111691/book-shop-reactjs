@@ -1,17 +1,26 @@
+import TopMenu from "./TopMenu";
+
+import HeaderMenu from "./HeaderMenu";
 import Logo from "./Logo";
 import CatalogSection from "./CatalogSection";
-import TopMenu from "./TopMenu";
-import HeaderMenu from "./HeaderMenu";
+import MenuOptions from "./MenuOptions";
+
+import HeaderBottomList from "./HeaderBottomList";
+
+import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <TopMenu />
 
       <HeaderMenu>
         <Logo />
         <CatalogSection />
+        <MenuOptions />
       </HeaderMenu>
+
+      <HeaderBottomList />
     </header>
   );
 }

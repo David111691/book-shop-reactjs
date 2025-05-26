@@ -1,0 +1,18 @@
+.menu-options {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.menu-options__button {
+  display: flex;
+  flex-direction: column;
+
+  background: none;
+  border: none;
+  color: #fff;
+  fill: #fff;
+}
+
+.menu-options__button span {
+  font-family: "Rubik", sans-serif;
+}

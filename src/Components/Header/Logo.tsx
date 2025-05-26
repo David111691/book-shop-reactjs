@@ -4,8 +4,8 @@ function Logo() {
   return (
     <span className={styles["header__logo-container"]}>
       <svg
-        width="76"
-        height="24"
+        width="144"
+        height="60"
         viewBox="0 0 76 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

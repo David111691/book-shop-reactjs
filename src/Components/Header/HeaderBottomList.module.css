@@ -1,0 +1,27 @@
+.bottom-list__container {
+  padding: 6px 0 12px 0;
+
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
+.bottom-list__list {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0;
+  margin: 0;
+
+  font-size: 1.2rem;
+}
+
+.bottom-list__link-item {
+  list-style: none;
+}
+
+.bottom-list__link-item a {
+  text-decoration: none;
+  color: #fff;
+}
