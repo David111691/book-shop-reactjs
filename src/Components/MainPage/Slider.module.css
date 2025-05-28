@@ -1,0 +1,79 @@
+.slider-banner {
+  width: 89.6rem;
+  height: 40rem;
+
+  position: relative;
+}
+
+.slider-banner__container {
+  overflow-x: auto;
+  width: 89.6rem;
+  height: 40rem;
+  display: flex;
+
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.slide {
+  width: 89.6rem;
+  flex-shrink: 0;
+
+  background-size: cover;
+
+  background-position-x: 50%;
+
+  scroll-snap-align: start;
+}
+
+.slide_1 {
+  background-image: url("https://content.img-gorod.ru/content/main-banner/3110-imageWeb-4.jpg?width=1200&height=400%201x,%20https://content.img-gorod.ru/content/main-banner/3110-imageWeb-4.jpg?width=2400&height=800%202x");
+}
+.slide_2 {
+  background-image: url("https://content.img-gorod.ru/content/main-banner/4723-imageWeb.png?width=1200&height=400%201x,%20https://content.img-gorod.ru/content/main-banner/4723-imageWeb.png?width=2400&height=800%202x");
+}
+.slide_3 {
+  background-image: url("https://content.img-gorod.ru/content/main-banner/4721-imageWeb.png?width=1200&height=400%201x,%20https://content.img-gorod.ru/content/main-banner/4721-imageWeb.png?width=2400&height=800%202x");
+}
+.slide_4 {
+  background-image: url("https://content.img-gorod.ru/content/main-banner/4718-imageWeb-2.png?width=1200&height=400%201x,%20https://content.img-gorod.ru/content/main-banner/4718-imageWeb-2.png?width=2400&height=800%202x");
+}
+
+.button-left {
+  width: 4rem;
+  height: 4rem;
+  border-style: none;
+  border-radius: 0.8rem;
+  background-color: #ffffff62;
+
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.button-right {
+  width: 4rem;
+  height: 4rem;
+  border-style: none;
+  border-radius: 0.8rem;
+  background-color: #ffffff62;
+
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+.arrow_left {
+  stroke: #ffffff;
+  fill: #ffffff;
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.arrow_right {
+  stroke: #ffffff;
+  fill: #ffffff;
+  width: 2.2rem;
+  height: 2.2rem;
+}
