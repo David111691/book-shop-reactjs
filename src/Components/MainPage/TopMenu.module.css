@@ -1,0 +1,43 @@
+.list_container {
+    flex-shrink: 1;
+    width: 100%;    
+}
+
+.list {
+    list-style: none;
+    font-size: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.list_item {
+    border: 0.2rem #f1f4f5 solid;
+    padding: 1.8rem 1.8rem 2rem 2rem;
+}
+
+.list_link {
+    text-decoration: none;
+    color: #000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item_title {
+    font-size: 2rem;
+    line-height: 2.6rem;
+
+    margin: 0;
+    margin-bottom: 0.8rem;
+}
+
+.item_description {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #737880;
+
+    margin: 0;
+}
