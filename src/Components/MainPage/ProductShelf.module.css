@@ -22,3 +22,8 @@
 
   fill: #2c7edc;
 }
+
+.productCard_container {
+  display: flex;
+  overflow-x: scroll;
+}

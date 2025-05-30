@@ -10,7 +10,7 @@ function Slider() {
         `.${styles.slide}`
       ) as HTMLDivElement;
 
-      const slideWidth = slide?.offsetWidth || 0;
+      const slideWidth = slide ?.offsetWidth || 0;
 
       sliderRef.current.scrollBy({
         left: direction === "left" ? -slideWidth : slideWidth,
@@ -29,17 +29,23 @@ function Slider() {
             `.${styles.slide}`
           ) as HTMLDivElement;
 
-          const slideWidth = slide?.offsetWidth || 0;
+          const slideWidth = slide ?.offsetWidth || 0;
 
           const container = sliderRef.current;
 
           const maxScrollLeft = container.scrollWidth;
           const currentScrollLeft = container.scrollLeft;
 
-          //   console.log("currentScrollLeft + slideWidth", currentScrollLeft);
-          //   console.log("maxScrollLeft", maxScrollLeft);
+          const containerWidth = container.clientWidth;
 
-          if (currentScrollLeft + slideWidth >= maxScrollLeft) {
+          // console.log("currentScrollLeft", currentScrollLeft);
+          // console.log("containerWidth", containerWidth);
+          // console.log("maxScrollLeft", maxScrollLeft);
+          // console.log("---------------------");
+
+          const threshhold = 8;
+
+          if (currentScrollLeft + containerWidth + threshhold >= maxScrollLeft) {
             container.scrollTo({ left: 0, behavior: "smooth" });
             return;
           }
