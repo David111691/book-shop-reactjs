@@ -1,4 +1,4 @@
-import { useRef, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
 import styles from "./ProductShelf.module.css";
@@ -6,18 +6,36 @@ import styles from "./ProductShelf.module.css";
 import ProductCard from "./ProductCard";
 
 function ProductShelf() {
-  const scrollRef = useRef(null);
+  const [books, setBooks] = useState([]);
 
   useEffect(() => {
-    const container = scrollRef.current;
+    async function loadBooks() {
+      try {
+        const response = await fetch("./products_1.json");
+        if (!response.ok) throw new Error("Ошибка загрузки");
+        const books = await response.json();
+        setBooks(books);
+        console.log("Данные книг:", books);
+      } catch (err) {
+        console.error(err);
+      }
+    }
 
-    const handleScroll = () => {
-    };
-
-    container.addEventListener("scroll", handleScroll);
-
-    return () => container.removeEventListener("scroll", handleScroll);
+    loadBooks();
   }, []);
+
+  const scrollRef = useRef(null);
+
+  // useEffect(() => {
+  //   const container = scrollRef.current;
+
+  //   const handleScroll = () => {
+  //   };
+
+  //   container.addEventListener("scroll", handleScroll);
+
+  //   return () => container.removeEventListener("scroll", handleScroll);
+  // }, []);
 
   return (
     <div>
@@ -37,19 +55,9 @@ function ProductShelf() {
       </div>
 
       <div className={styles.productCard_container} ref={scrollRef}>
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+        {books.map((book) => (
+          <ProductCard book={book} key={book.title} />
+        ))}
       </div>
     </div>
   );

@@ -1,0 +1,122 @@
+[
+  {
+    "poster_url": "https://content.img-gorod.ru/pim/products/images/9e/76/019540e7-f91c-7ed4-8466-5dea3bd99e76.jpg?width=160&height=236",
+    "price": 1399,
+    "title": "Тень ветра",
+    "author": "Карлос Руис Сафон",
+    "rating": 4.8,
+    "comments_count": 1123
+  },
+  {
+    "poster_url": "https://content.img-gorod.ru/pim/products/images/26/07/0195bc7c-e53b-7d21-9b34-937cf91d2607.jpg?width=160&height=236",
+    "price": 105,
+    "title": "Пикник на обочине",
+    "author": "Аркадий и Борис Стругацкие",
+    "rating": 4.6,
+    "comments_count": 950
+  },
+  {
+    "poster_url": "https://content.img-gorod.ru/pim/products/images/b1/61/0195fb52-41af-7cd6-a700-27ead36eb161.jpg?width=160&height=236",
+    "price": 142,
+    "title": "Марсианин",
+    "author": "Энди Вейер",
+    "rating": 4.9,
+    "comments_count": 1784
+  },
+  {
+    "poster_url": "https://content.img-gorod.ru/pim/products/images/06/08/0195cac0-6708-7d7e-af03-0773078d0608.jpg?width=160&height=236",
+    "price": 1199,
+    "title": "Хроники Нарнии",
+    "author": "Клайв Льюис",
+    "rating": 4.7,
+    "comments_count": 864
+  },
+  {
+    "poster_url": "https://content.img-gorod.ru/pim/products/images/98/fa/0195fb57-c23f-7955-ab56-6ebb7e4698fa.jpg",
+    "price": 153,
+    "title": "Дюна",
+    "author": "Фрэнк Герберт",
+    "rating": 4.8,
+    "comments_count": 2200
+  },
+  {
+    "poster_url": "https://content.img-gorod.ru/pim/products/images/d8/fc/0195bc8a-95f4-73b8-ab76-0a55aba4d8fc.jpg?width=160&height=236",
+    "price": 97,
+    "title": "Цветы для Элджернона",
+    "author": "Дэниел Киз",
+    "rating": 4.5,
+    "comments_count": 1012
+  },
+  {
+    "poster_url": "https://content.img-gorod.ru/pim/products/images/5c/81/0195bc83-321b-776e-b08a-a15cb8ff5c81.jpg?width=160&height=236",
+    "price": 128,
+    "title": "451 градус по Фаренгейту",
+    "author": "Рэй Брэдбери",
+    "rating": 4.6,
+    "comments_count": 1376
+  },
+  {
+    "poster_url": "https://content.img-gorod.ru/pim/products/images/ca/bb/0195fb79-6b41-7721-8e11-3a4d6b8ccabb.jpg?width=160&height=236",
+    "price": 1125,
+    "title": "Портрет Дориана Грея",
+    "author": "Оскар Уайльд",
+    "rating": 4.7,
+    "comments_count": 1044
+  },
+  {
+    "poster_url": "https://content.img-gorod.ru/pim/products/images/1a/a4/0196c9dd-45d7-76c0-9331-5dc07e9a1aa4.jpg?width=160&height=236",
+    "price": 1099,
+    "title": "Мастер и Маргарита",
+    "author": "Михаил Булгаков",
+    "rating": 4.9,
+    "comments_count": 2480
+  },
+  {
+    "poster_url": "https://content.img-gorod.ru/pim/products/images/9a/67/0195bc8d-a519-701f-b62a-a3f9199a9a67.jpg?width=160&height=236",
+    "price": 1345,
+    "title": "Солярис",
+    "author": "Станислав Лем",
+    "rating": 4.6,
+    "comments_count": 1198
+  },
+  {
+    "poster_url": "https://content.img-gorod.ru/pim/products/images/9f/5d/01954613-771d-7f71-b4c3-9d31aae49f5d.jpg?width=160&height=236",
+    "price": 120,
+    "title": "Замок",
+    "author": "Франц Кафка",
+    "rating": 4.3,
+    "comments_count": 689
+  },
+  {
+    "poster_url": "https://content.img-gorod.ru/pim/products/images/57/be/01956a09-d743-75a4-85d8-8db8babf57be.jpg?width=160&height=236",
+    "price": 89,
+    "title": "Три товарища",
+    "author": "Эрих Мария Ремарк",
+    "rating": 4.8,
+    "comments_count": 1475
+  },
+  {
+    "poster_url": "https://content.img-gorod.ru/pim/products/images/06/08/0195cac0-6708-7d7e-af03-0773078d0608.jpg?width=160&height=236",
+    "price": 116,
+    "title": "Зов Ктулху",
+    "author": "Говард Лавкрафт",
+    "rating": 4.4,
+    "comments_count": 778
+  },
+  {
+    "poster_url": "https://content.img-gorod.ru/pim/products/images/5c/81/0195bc83-321b-776e-b08a-a15cb8ff5c81.jpg?width=160&height=236",
+    "price": 131,
+    "title": "Песнь льда и огня",
+    "author": "Джордж Р. Р. Мартин",
+    "rating": 4.9,
+    "comments_count": 3120
+  },
+  {
+    "poster_url": "https://content.img-gorod.ru/pim/products/images/1a/a4/0196c9dd-45d7-76c0-9331-5dc07e9a1aa4.jpg?width=160&height=236",
+    "price": 145,
+    "title": "Над пропастью во ржи",
+    "author": "Джером Сэлинджер",
+    "rating": 4.2,
+    "comments_count": 1150
+  }
+]
