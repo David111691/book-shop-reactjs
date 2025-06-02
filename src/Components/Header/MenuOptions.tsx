@@ -1,9 +1,20 @@
+import { useState } from "react";
 import styles from "./MenuOptions.module.css";
+import LoginMenu from "../Login_menu/LoginMenu";
 
 function MenuOptions() {
+  const [isLoginOpen, setIsLoginOpen] = useState(false);
+
+  function closeLogin() {
+    setIsLoginOpen(false);
+  }
+
   return (
     <div className={styles["menu-options"]}>
-      <button className={styles["menu-options__button"]}>
+      <button
+        className={styles["menu-options__button"]}
+        onClick={() => setIsLoginOpen(true)}
+      >
         <span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -55,6 +66,7 @@ function MenuOptions() {
         </span>
         <span>Корзина</span>
       </button>
+      {isLoginOpen && <LoginMenu closeLogin={closeLogin} />}
     </div>
   );
 }

@@ -1,0 +1,58 @@
+.overlay {
+	position: fixed;
+	background-color: rgba(1, 1, 1, 0.5);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 999;
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.popup {
+	background: #fff;
+	width: 70rem;
+	border-radius: 0.8rem;
+
+	padding-bottom: 3.6rem;
+}
+
+.close {
+	font-size: 3rem;
+	margin-left: 0.6rem;
+}
+
+.loginLabel {
+	text-align: center;
+}
+
+.formContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.labelStyle {
+	display: inline-block;
+	width: 6rem;
+}
+
+.input {
+	width: 30rem;
+	height: 3rem;
+	border: 1px solid #d1d6da;
+}
+
+.loginButton {
+	background-color: #e3e3e3;
+	padding: 1rem 5rem;
+	border-radius: 0.8rem;
+	border-style: none;
+}

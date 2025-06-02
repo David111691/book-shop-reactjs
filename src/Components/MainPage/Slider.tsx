@@ -43,7 +43,7 @@ function Slider() {
           // console.log("maxScrollLeft", maxScrollLeft);
           // console.log("---------------------");
 
-          const threshhold = 8;
+          const threshhold = 100;
 
           if (currentScrollLeft + containerWidth + threshhold >= maxScrollLeft) {
             container.scrollTo({ left: 0, behavior: "smooth" });

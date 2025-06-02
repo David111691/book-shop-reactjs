@@ -26,4 +26,6 @@
 .productCard_container {
   display: flex;
   overflow-x: scroll;
+/*  height: 47rem;*/
+/*  overflow-y: hidden;*/
 }

@@ -1,8 +1,10 @@
 .product_card {
-	display: inline-flex;
+	display: flex;
 	flex-direction: column;
 
 	padding: 0 0.8rem;
+
+	height: 46rem;
 }
 
 .image_container {
@@ -117,4 +119,8 @@
 
 	border-radius: 0.4rem;
 	border: none;
+}
+
+.bottom_container {
+	margin-top: auto;
 }
